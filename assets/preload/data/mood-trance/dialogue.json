@@ -1,0 +1,76 @@
+{
+	"dialogue": [
+		{
+			"sound": "",
+			"speed": 0.05,
+			"portrait": "trance",
+			"boxState": "normal",
+			"expression": "talk",
+			"text": "nice voice!"
+		},
+		{
+			"sound": "",
+			"speed": 0.05,
+			"portrait": "trance",
+			"boxState": "normal",
+			"expression": "talk",
+			"text": "Allow me to introduce myself properly, my name is Mr.Trance and yours?"
+		},
+		{
+			"sound": "",
+			"speed": 0.05,
+			"portrait": "gf",
+			"boxState": "normal",
+			"expression": "talk",
+			"text": "My name is Girlfriend and he is Boyfriend my boyfriend"
+		},
+		{
+			"sound": "",
+			"speed": 0.05,
+			"portrait": "trance",
+			"boxState": "normal",
+			"expression": "talk",
+			"text": "Wait the name of your boyfriend is Boyfriend?"
+		},
+		{
+			"sound": "",
+			"speed": 0.05,
+			"portrait": "trance",
+			"boxState": "normal",
+			"expression": "talk",
+			"text": "and your name is Girlfriend and you are his girlfriend?"
+		},
+		{
+			"sound": "",
+			"speed": 0.05,
+			"portrait": "gf",
+			"boxState": "normal",
+			"expression": "talk",
+			"text": "Yep :) "
+		},
+		{
+			"sound": "",
+			"speed": 0.05,
+			"portrait": "trance",
+			"boxState": "normal",
+			"expression": "talk",
+			"text": "Anyway you want another round?"
+		},
+		{
+			"sound": "",
+			"speed": 0.05,
+			"portrait": "bf",
+			"boxState": "normal",
+			"expression": "talk",
+			"text": "de beep de bopo bap boop  de beep de beep de bopo bap boop"
+		},
+		{
+			"sound": "",
+			"speed": 0.05,
+			"portrait": "trance",
+			"boxState": "normal",
+			"expression": "talk",
+			"text": "I will take that like a yes"
+		}
+	]
+}

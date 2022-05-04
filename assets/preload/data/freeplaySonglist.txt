@@ -1,4 +1,0 @@
-tutorial:gf:0
-trance:dad:1
-go-trance:dad:1
-live-trance:dad:1

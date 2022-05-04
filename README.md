@@ -1,87 +1,96 @@
+# Friday Night Funkin' - Psych Engine
+Engine originally used on [Mind Games Mod](https://gamebanana.com/mods/301107), intended to be a fix for the vanilla version's many issues while keeping the casual play aspect of it. Also aiming to be an easier alternative to newbie coders.
 
-![Kade Engine logo](assets/preload/images/KadeEngineLogo.png)
+## Installation:
+You must have [the most up-to-date version of Haxe](https://haxe.org/download/), seriously, stop using 4.1.5, it misses some stuff.
 
-[![AppVeyor](https://img.shields.io/appveyor/build/KadeDev/Kade-Engine-Windows?label=windows%20build)](https://ci.appveyor.com/project/KadeDev/kade-engine-windows/branch/master/artifacts) [![AppVeyor](https://img.shields.io/appveyor/build/KadeDev/Kade-Engine-Macos?label=macOS%20build)](https://ci.appveyor.com/project/KadeDev/kade-engine-macos/branch/master/artifacts)  [![AppVeyor](https://img.shields.io/appveyor/build/KadeDev/Kade-Engine-Linux?label=linux%20build)](https://ci.appveyor.com/project/KadeDev/kade-engine-linux/branch/master/artifacts) [![AppVeyor](https://img.shields.io/appveyor/build/daniel11420/KadeEngineWeb?label=html5&20build)](https://ci.appveyor.com/project/daniel11420/KadeEngineWeb) [![Discord](https://img.shields.io/discord/808039740464300104?label=discord)](https://discord.gg/MG6GQFh52U) [![GitHub issues](https://img.shields.io/github/issues/KadeDev/Kade-Engine)](https://github.com/KadeDev/Kade-Engine/issues) [![GitHub pull requests](https://img.shields.io/github/issues-pr/KadeDev/Kade-Engine)](https://github.com/KadeDev/Kade-Engine/pulls) []() []()
+Follow a Friday Night Funkin' source code compilation tutorial, after this you will need to install LuaJIT.
 
-![GitHub commits since latest release (by date)](https://img.shields.io/github/commits-since/KadeDev/Kade-Engine/latest) ![GitHub repo size](https://img.shields.io/github/repo-size/KadeDev/Kade-Engine) ![Lines of code](https://img.shields.io/tokei/lines/github/KadeDev/Kade-Engine) ![Supported platforms](https://img.shields.io/badge/supported%20platforms-windows%2C%20macOS%2C%20linux%2C%20html5-blue) ![GitHub all releases](https://img.shields.io/github/downloads/KadeDev/Kade-Engine/total) ![GitHub](https://img.shields.io/github/license/KadeDev/Kade-Engine) ![GitHub release (latest by date including pre-releases)](https://img.shields.io/github/v/release/KadeDev/Kade-Engine?include_prereleases&label=latest%20version) 
+To install LuaJIT do this: `haxelib git linc_luajit https://github.com/AndreiRudenko/linc_luajit ` on a Command prompt/PowerShell
 
-# Friday Night Funkin': Kade Engine
+...Or if you don't want your mod to be able to run .lua scripts, delete the "LUA_ALLOWED" line on Project.xml
 
-### If you want to contribute to Kade Engine, read [this](https://github.com/KadeDev/Kade-Engine/blob/stable/CONTRIBUTING.md) first.
-### If you want to build Kade Engine, read [this](https://github.com/KadeDev/Kade-Engine/blob/stable/docs/building.md).
+## Credits:
+* Shadow Mario - Coding
+* RiverOaken - Arts and Animations
+* bbpanzu - Assistant Coding
 
-## Friday Night Funkin'
-**Friday Night Funkin'** is a rhythm game originally made for Ludum Dare 47 "Stuck In a Loop".
-
-Links: **[itch.io page](https://ninja-muffin24.itch.io/funkin) ⋅ [Newgrounds](https://www.newgrounds.com/portal/view/770371) ⋅ [source code on GitHub](https://github.com/ninjamuffin99/Funkin)**
-> Uh oh! Your tryin to kiss ur hot girlfriend, but her MEAN and EVIL dad is trying to KILL you! He's an ex-rockstar, the only way to get to his heart? The power of music... 
-
-## Kade Engine
-**Kade Engine** is a mod for Friday Night Funkin', including a full engine rework, replays, and more.
-
-Links: **[GameBanana mod page](https://gamebanana.com/gamefiles/16761) ⋅ [play in browser](https://funkin.puyo.xyz) ⋅ [latest stable release](https://github.com/KadeDev/Kade-Engine/releases/latest) ⋅ [latest development build (windows)](https://ci.appveyor.com/project/KadeDev/kade-engine-windows/branch/master/artifacts) ⋅ [latest development build (macOS)](https://ci.appveyor.com/project/KadeDev/kade-engine-macos/branch/master/artifacts) ⋅ [latest development build (linux)](https://ci.appveyor.com/project/KadeDev/kade-engine-linux/branch/master/artifacts)**
-
-**REMEMBER**: This is a **mod**. This is not the vanilla game and should be treated as a **modification**. This is not and probably will never be official, so don't get confused.
-
-## Website ([KadeDev.github.io/kade-engine/](https://KadeDev.github.io/Kade-Engine/))
-If you're looking for documentation, changelogs, or guides, you can find those on the Kade Engine website.
-
-# Previews ([skip](#features))
-
-![Title Screen](art/readme/KadeEngineTitleScreen.png)
-
-![Week Select](art/readme/KadeEngineWeekSelect.png)
-
-![Freeplay](art/readme/KadeEngineFreeplay.png)
-
-![Options](art/readme/KadeEngineOptions.png)
-
-![Senpai Gameplay (Hard, Upscroll)](art/readme/KadeEnginePixelGameplay.png)
-
-![Roses Dialogue](art/readme/KadeEngineDialogue.png)
-
-![Pause Screen](art/readme/KadeEnginePauseScreen.png)
-
-![Results Screen](art/readme/KadeEngineResultsScreen.png)
-
-![Replay Loader](art/readme/KadeEngineReplayLoader.png)
+### Special Thanks
+* shubs - New Input System
+* SqirraRNG - Chart Editor's Sound Waveform base code
+* iFlicky - Delay/Combo Menu Song Composer + Dialogue Sounds
+* PolybiusProxy - .MP4 Loader Extension
+* Keoiki - Note Splash Animations
+* Smokey - Spritemap Texture Atlas support
+* Cary - OG Resolution code
+* Nebula_Zorua - VCR Shader code
+_____________________________________
 
 # Features
 
- - **New Input System**
-	 - An improved input system, similar to Quaver or Etterna, with less delays, less dropped inputs and other improvements.
- - **More information during gameplay**
-	 - While you're playing, we show you information about how you're doing, such as your accuracy, combo break count, notes per second, and your grade/rating.
- - **Customizable keybinds**
-	 - Instead of being forced to use WASD and the arrow keys, you can set any keybinds you want!
- - **Replays** (in beta)
-	 - Have you ever gotten a crazy score but didn't record? The replay system solves that: it automatically saves a "replay" of your gameplay every time you complete a song, which you can play back inside of the game. 
-	 - Replays just store information about what you're doing, they don't actually record the screen -- so they take up way less space on your disk than videos.
- - **Audio offset**
-	 - If your speakers or headphones are delayed, you can set an offset in the options menu to line the game up with the delay and play with synced audio like intended!
- - **And much, much more!**
-	 - There's so much more in store than just what's listed here! If you can imagine a quality of life feature, it's probably
-	 either already included in Kade Engine or is being worked on!
+## Attractive animated dialogue boxes:
 
-# Credits
-### Friday Night Funkin'
- - [ninjamuffin99](https://twitter.com/ninja_muffin99) - Programming
- - [PhantomArcade3K](https://twitter.com/phantomarcade3k) and [Evilsk8r](https://twitter.com/evilsk8r) - Art
- - [Kawai Sprite](https://twitter.com/kawaisprite) - Music
-
-This game was made with love to Newgrounds and its community. Extra love to Tom Fulp.
-### Kade Engine
-- [KadeDeveloper](https://twitter.com/KadeDeveloper) - Maintainer and lead programmer
-- [The contributors](https://github.com/KadeDev/Kade-Engine/graphs/contributors)
+![](https://user-images.githubusercontent.com/44785097/127706669-71cd5cdb-5c2a-4ecc-871b-98a276ae8070.gif)
 
 
+## Mod Support
+* Probably one of the main points of this engine, you can code in .lua files outside of the source code, making your own weeks without even messing with the source!
+* Comes with a Mod Organizing/Disabling Menu. 
 
-### Shoutouts
-- [GWebDev](https://github.com/GrowtopiaFli) - Video Code
-- [Rozebud](https://github.com/ThatRozebudDude) - Ideas (that I stole)
-- [Puyo](https://github.com/puyoxyz) - Setting up appveyor and a lot of other help
-- [Smokey](https://github.com/Smokey555) - telling me that I should do the tricky asset loading
-- [Poco](https://github.com/poco0317) - math degree (aka most of the fucking math in this project)
-- [Fox](https://twitter.com/FoxeruKun) - circle noteskins
-- [Orbyy](https://twitter.com/orbyynew) - pixel circle noteskins
-- [Shubs](https://github.com/Yoshubs) - Forever Engine dump cache
+
+## Atleast one change to every week:
+### Week 1:
+  * New Dad Left sing sprite 
+  * Unused stage lights are now used
+### Week 2:
+  * Both BF and Skid & Pump does "Hey!" animations
+  * Thunders does a quick light flash and zooms the camera in slightly
+  * Added a quick transition/cutscene to Monster
+### Week 3:
+  * BF does "Hey!" during Philly Nice
+  * Blammed has a cool new colors flash during that sick part of the song
+### Week 4:
+  * Better hair physics for Mom/Boyfriend (Maybe even slightly better than Week 7's :eyes:)
+  * Henchmen die during all songs. Yeah :(
+### Week 5:
+  * Bottom Boppers and GF does "Hey!" animations during Cocoa and Eggnog
+  * On Winter Horrorland, GF bops her head slower in some parts of the song.
+### Week 6:
+  * On Thorns, the HUD is hidden during the cutscene
+  * Also there's the Background girls being spooky during the "Hey!" parts of the Instrumental
+
+## Cool new Chart Editor changes and countless bug fixes
+![](https://github.com/ShadowMario/FNF-PsychEngine/blob/main/docs/img/chart.png?raw=true)
+* You can now chart "Event" notes, which are bookmarks that trigger specific actions that usually were hardcoded on the vanilla version of the game.
+* Your song's BPM can now have decimal values
+* You can manually adjust a Note's strum time if you're really going for milisecond precision
+* You can change a note's type on the Editor, it comes with two example types:
+  * Alt Animation: Forces an alt animation to play, useful for songs like Ugh/Stress
+  * Hey: Forces a "Hey" animation instead of the base Sing animation, if Boyfriend hits this note, Girlfriend will do a "Hey!" too.
+
+## Multiple editors to assist you in making your own Mod
+![Screenshot_3](https://user-images.githubusercontent.com/44785097/144629914-1fe55999-2f18-4cc1-bc70-afe616d74ae5.png)
+* Working both for Source code modding and Downloaded builds!
+
+## Story mode menu rework:
+![](https://i.imgur.com/UB2EKpV.png)
+* Added a different BG to every song (less Tutorial)
+* All menu characters are now in individual spritesheets, makes modding it easier.
+
+## Credits menu
+![Screenshot_1](https://user-images.githubusercontent.com/44785097/144632635-f263fb22-b879-4d6b-96d6-865e9562b907.png)
+* You can add a head icon, name, description and a Redirect link for when the player presses Enter while the item is currently selected.
+
+## Awards/Achievements
+* The engine comes with 16 example achievements that you can mess with and learn how it works (Check Achievements.hx and search for "checkForAchievement" on PlayState.hx)
+
+## Options menu:
+* You can change Note colors, Delay and Combo Offset, Controls and Preferences there.
+ * On Preferences you can toggle Downscroll, Middlescroll, Anti-Aliasing, Framerate, Low Quality, Note Splashes, Flashing Lights, etc.
+
+## Other gameplay features:
+* When the enemy hits a note, their strum note also glows.
+* Lag doesn't impact the camera movement and player icon scaling anymore.
+* Some stuff based on Week 7's changes has been put in (Background colors on Freeplay, Note splashes)
+* You can reset your Score on Freeplay/Story Mode by pressing Reset button.
+* You can listen to a song or adjust Scroll Speed/Damage taken/etc. on Freeplay by pressing Space.

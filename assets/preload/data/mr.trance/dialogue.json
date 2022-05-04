@@ -1,0 +1,60 @@
+{
+	"dialogue": [
+		{
+			"expression": "talk",
+			"text": "Oh... what are you two doing in my house?",
+			"boxState": "normal",
+			"sound": "",
+			"speed": 0.05,
+			"portrait": "trance"
+		},
+		{
+			"expression": "talk",
+			"text": "Beep skedo pa po ",
+			"boxState": "normal",
+			"sound": "",
+			"speed": 0.05,
+			"portrait": "bf"
+		},
+		{
+			"expression": "talk",
+			"text": "He said that he wants to do a rap battle with you",
+			"boxState": "normal",
+			"sound": "",
+			"speed": 0.05,
+			"portrait": "gf"
+		},
+		{
+			"expression": "talk",
+			"text": "A rap battle? I mean... you two just come to my house to duet me to a rap battle???",
+			"boxState": "normal",
+			"sound": "",
+			"speed": 0.05,
+			"portrait": "trance"
+		},
+		{
+			"expression": "talk",
+			"text": "bep :)",
+			"boxState": "normal",
+			"sound": "",
+			"speed": 0.05,
+			"portrait": "bf"
+		},
+		{
+			"expression": "talk",
+			"text": "It sounds good for me, i dont have anything to do so...",
+			"boxState": "normal",
+			"sound": "",
+			"speed": 0.05,
+			"portrait": "trance"
+		},
+		{
+			"expression": "talk",
+			"text": "Lets rock!",
+			"boxState": "normal",
+			"sound": "",
+			"speed": 0.05,
+			"portrait": "trance"
+		}
+	]
+}

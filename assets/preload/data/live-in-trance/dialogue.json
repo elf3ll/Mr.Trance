@@ -1,0 +1,60 @@
+{
+	"dialogue": [
+		{
+			"sound": "",
+			"speed": 0.05,
+			"portrait": "trance",
+			"boxState": "normal",
+			"expression": "talk",
+			"text": "Your rap skills are so good!"
+		},
+		{
+			"sound": "",
+			"speed": 0.05,
+			"portrait": "bf",
+			"boxState": "normal",
+			"expression": "talk",
+			"text": "Gracias pe webon"
+		},
+		{
+			"sound": "",
+			"speed": 0.05,
+			"portrait": "trance",
+			"boxState": "normal",
+			"expression": "talk",
+			"text": "Oh wait do you speak spanish?"
+		},
+		{
+			"sound": "",
+			"speed": 0.05,
+			"portrait": "bf",
+			"boxState": "normal",
+			"expression": "talk",
+			"text": "beep"
+		},
+		{
+			"sound": "",
+			"speed": 0.05,
+			"portrait": "trance",
+			"boxState": "normal",
+			"expression": "talk",
+			"text": "???"
+		},
+		{
+			"sound": "",
+			"speed": 0.05,
+			"portrait": "trance",
+			"boxState": "normal",
+			"expression": "talk",
+			"text": "Can we proceed to the next round?"
+		},
+		{
+			"sound": "",
+			"speed": 0.05,
+			"portrait": "bf",
+			"boxState": "normal",
+			"expression": "talk",
+			"text": "skbep skdoo"
+		}
+	]
+}

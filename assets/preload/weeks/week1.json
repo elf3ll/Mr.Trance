@@ -1,0 +1,50 @@
+{
+	"storyName": "/summon @mr.trance",
+	"difficulties": "",
+	"hideFreeplay": false,
+	"weekBackground": "stage",
+	"freeplayColor": [
+		146,
+		113,
+		253
+	],
+	"weekBefore": "tutorial",
+	"startUnlocked": true,
+	"weekCharacters": [
+		"dad",
+		"bf",
+		"gf"
+	],
+	"songs": [
+		[
+			"mr.trance",
+			"dad",
+			[
+				126,
+				33,
+				253
+			]
+		],
+		[
+			"mood trance",
+			"dad",
+			[
+				0,
+				155,
+				235
+			]
+		],
+		[
+			"live in trance",
+			"dad",
+			[
+				6,
+				153,
+				0
+			]
+		]
+	],
+	"hideStoryMode": false,
+	"weekName": "trance",
+	"hiddenUntilUnlocked": false
+}
