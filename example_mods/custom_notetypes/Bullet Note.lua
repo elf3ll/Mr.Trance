@@ -1,14 +1,12 @@
 function onCreate()
-	--Iterate over all notes
+	--Editar todas las notas
 	for i = 0, getProperty('unspawnNotes.length')-1 do
-		--Check if the note is a Bullet Note
+		--Chequea si la nota es una nota de tipo Trance
 		if getPropertyFromGroup('unspawnNotes', i, 'noteType') == 'Bullet Note' then
-			setPropertyFromGroup('unspawnNotes', i, 'texture', 'note/bulletnotes'); --Change texture
-			-- setPropertyFromGroup('unspawnNotes', i, 'missHealth', 0); --Change amount of health to take when you miss like a fucking moron
-			setPropertyFromGroup('unspawnNotes', i, 'missHealth', '500'); --Default value is: 0.0475, health lost on miss
+			setPropertyFromGroup('unspawnNotes', i, 'texture', 'note/bulletnotes'); --Cambia la textura de la nota por la de la nota de tipo Trance
+			setPropertyFromGroup('unspawnNotes', i, 'missHealth', '500'); --Te quita toda la vida
 		end
 	end
-	--debugPrint('Script started!')
 end
 
 function goodNoteHit(id, noteData, noteType, isSustainNote)
@@ -24,12 +22,6 @@ function goodNoteHit(id, noteData, noteType, isSustainNote)
 
 				end
 	end
-
-function noteMiss(id, noteData, noteType, isSustainNote)
-	if noteType == 'Bullet Note' then
-		
-	end
-end
 
 	
 function onTimerCompleted(tag, loops, loopsLeft)

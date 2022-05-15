@@ -41,7 +41,7 @@ class CreditsState extends MusicBeatState
 	{
 		#if desktop
 		// Updating Discord Rich Presence
-		DiscordClient.changePresence("In the Menus", null);
+		DiscordClient.changePresence("In the credits", null);
 		#end
 
 		persistentUpdate = true;
@@ -86,40 +86,54 @@ class CreditsState extends MusicBeatState
 			['Main programmers'],
 			[
 				'Fell',
-				'shadowmario',
+				'fell',
 				'Main Programmer of Vs Mr.Trance Mod',
-				'https://www.twitch.tv/fell_x_x',
-				'444444'
+				'https://twitter.com/Fell_x_x',
+				'009933'
 			],
 			[
 				'MDC',
-				'riveroaken',
+				'mdc',
 				'Programmer of Vs Mr.Trance Mod',
 				'https://discord.gg/fpheq7JYt3',
-				'900C3F'
+				'990099'
 			],
 			[
-				'Thomas',
-				'shubs',
+				'Jacko',
+				'thomas',
 				'Additional Programmer of Vs Mr.Trance Mod',
 				'https://twitter.com/httpThomas_',
-				'279ADC'
+				'737373'
 			],
 			[
 				'ElcalvoNuclear',
-				'shadowmario',
+				'calvonuclear',
 				'Additional Programmer of Vs Mr.Trance Mod',
 				'',
-				'279ADC'
+				'cc9900'
 			],
 			[''],
 			['Designer'],
 			[
-				'Double-Dust',
-				'bb-panzu',
+				'Double Dust',
+				'double-dust',
 				'Main Designer',
 				'https://twitter.com/BrawlPhanthom',
 				'389A58'
+			],
+			[
+				'LatyDev',
+				'latydev',
+				'Additional Designer of Vs Mr.Trance Mod',
+				'https://www.youtube.com/channel/UCsFi-9ulOouHHQR2taQ0gjg',
+				'ffffff'
+			],
+			[
+				'Dragon Rex',
+				'dragon-rex',
+				'Additional Designer of Vs Mr.Trance Mod',
+				'https://twitter.com/DragonFireRex',
+				'ff0000'
 			],
 			[''],
 			['Main Composer'],
@@ -133,30 +147,48 @@ class CreditsState extends MusicBeatState
 			['Special Thanks'],
 			[
 				'Senal Colombia',
-				'',
-				'channel where Mr.trance was broadcast',
+				'senal-colombia',
+				'Channel where Mr.trance was broadcast',
 				'https://www.youtube.com/channel/UCwZjVanaSg019RVQea9V1kw',
 				'AA32FE'
 			],
 			[
 				'Mr.Trance Series',
-				'',
+				'senal-colombia',
 				'Mr.Trance',
 				'https://www.youtube.com/channel/UCsQsbji08ioI_gdE8jo55Og',
 				'AA32FE'
 			],
 			[
 				'Breiner J.C.',
-				'',
+				'senal-colombia',
 				'I support myself not to give up and present the mod as a project xd',
 				'',
 				'279ADC'
 			],
 			[],
 			['Psych Engine Team'],
-			['Shadow Mario',		'shadowmario',		'Main Programmer of Psych Engine',							'https://twitter.com/Shadow_Mario_',	'444444'],
-			['RiverOaken',			'riveroaken',		'Main Artist/Animator of Psych Engine',						'https://twitter.com/RiverOaken',		'C30085'],
-			['shubs',				'shubs',			'Additional Programmer of Psych Engine',					'https://twitter.com/yoshubs',			'279ADC'],
+			[
+				'Shadow Mario',
+				'shadowmario',
+				'Main Programmer of Psych Engine',
+				'https://twitter.com/Shadow_Mario_',
+				'444444'
+			],
+			[
+				'RiverOaken',
+				'riveroaken',
+				'Main Artist/Animator of Psych Engine',
+				'https://twitter.com/RiverOaken',
+				'C30085'
+			],
+			[
+				'shubs',
+				'shubs',
+				'Additional Programmer of Psych Engine',
+				'https://twitter.com/yoshubs',
+				'279ADC'
+			],
 		];
 
 		for (i in pisspoop)

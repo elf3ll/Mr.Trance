@@ -190,8 +190,8 @@
 	"no_antialiasing": false,
 	"image": "characters/GF_assets",
 	"position": [
-		0,
-		0
+		-100,
+		260
 	],
 	"healthicon": "gf",
 	"flip_x": false,
@@ -201,8 +201,8 @@
 		77
 	],
 	"camera_position": [
-		0,
-		0
+		-260,
+		-30
 	],
 	"sing_duration": 4,
 	"scale": 1
