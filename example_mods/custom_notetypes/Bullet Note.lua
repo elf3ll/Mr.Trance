@@ -3,7 +3,8 @@ function onCreate()
 	for i = 0, getProperty('unspawnNotes.length')-1 do
 		--Chequea si la nota es una nota de tipo Trance
 		if getPropertyFromGroup('unspawnNotes', i, 'noteType') == 'Bullet Note' then
-			setPropertyFromGroup('unspawnNotes', i, 'texture', 'note/bulletnotes'); --Cambia la textura de la nota por la de la nota de tipo Trance
+			setPropertyFromGroup('unspawnNotes', i, 'texture', 'note/TranceNotes'); --Cambia la textura de la nota por la de la nota de tipo Trance
+			setPropertyFromGroup('unspawnNotes', i, 'noteSplashTexture', 'note/TranceNotesSplash'); --Cambia la textura de la nota por la de la nota de tipo Trance
 			setPropertyFromGroup('unspawnNotes', i, 'missHealth', '500'); --Te quita toda la vida
 		end
 	end

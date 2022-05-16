@@ -1,0 +1,44 @@
+{
+	"song": {
+		"speed": 1.7,
+		"stage": "stage",
+		"player1": "bf",
+		"player2": "dad",
+		"player3": null,
+		"events": [
+			[
+				155742.1875,
+				[
+					[
+						"Camera Follow Pos",
+						"600",
+						"600"
+					]
+				]
+			],
+			[
+				156328.125,
+				[
+					[
+						"Hey!",
+						"GF",
+						""
+					],
+					[
+						"Add Camera Zoom",
+						"0.3",
+						"0.1"
+					]
+				]
+			]
+		],
+		"notes": [],
+		"splashSkin": "noteSplashes",
+		"validScore": false,
+		"gfVersion": "gf",
+		"bpm": 128,
+		"arrowSkin": "",
+		"needsVoices": true,
+		"song": "mr.trance"
+	}
+}

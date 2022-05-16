@@ -137,13 +137,7 @@ class CreditsState extends MusicBeatState
 			],
 			[''],
 			['Main Composer'],
-			[
-				'Sugar',
-				'iflicky',
-				'Main Composer',
-				'https://twitter.com/sugarcoatedOwO',
-				'AA32FE'
-			],
+			['Sugar', 'fran', 'Main Composer', 'https://twitter.com/sugarcoatedOwO', 'AA32FE'],
 			['Special Thanks'],
 			[
 				'Senal Colombia',
