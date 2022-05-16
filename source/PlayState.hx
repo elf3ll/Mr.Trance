@@ -884,7 +884,7 @@ class PlayState extends MusicBeatState
 		#if ACHIEVEMENTS_ALLOWED
 		var newDate:Date = Date.now();
 		// If is 15th of may, give achievement
-		if ((newDate.getDate() == 15) && (newDate.getMonth() == 4))
+		if ((newDate.getDate() == 16) && (newDate.getMonth() == 4))
 		{
 			trace("GOT 15TH OF MAY");
 			var achieve:String = checkForAchievement(['birthday']);
