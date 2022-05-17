@@ -156,7 +156,7 @@ class CreditsState extends MusicBeatState
 			[
 				'Breiner J.C.',
 				'senal-colombia',
-				'I support myself not to give up and present the mod as a project xd',
+				'Teacher who helped me to make this mod go ahead!',
 				'',
 				'279ADC'
 			],
