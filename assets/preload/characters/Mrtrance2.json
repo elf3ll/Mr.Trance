@@ -1,123 +1,123 @@
 {
 	"animations": [
 		{
+			"loop": true,
 			"offsets": [
 				0,
-				0
+				1
 			],
-			"loop": true,
-			"fps": 24,
 			"anim": "idle-loop",
+			"fps": 24,
+			"name": "Dad idle dance",
 			"indices": [
 				10,
 				11,
 				12,
 				12
-			],
-			"name": "Dad idle dance"
+			]
 		},
 		{
-			"offsets": [
-				-9,
-				10
-			],
 			"loop": true,
-			"fps": 24,
+			"offsets": [
+				-1,
+				3
+			],
 			"anim": "singLEFT-loop",
+			"fps": 24,
+			"name": "Dad Sing Note LEFT",
 			"indices": [
 				12,
 				13,
 				14,
 				15
-			],
-			"name": "Dad Sing Note LEFT"
+			]
 		},
 		{
-			"offsets": [
-				0,
-				27
-			],
 			"loop": true,
-			"fps": 24,
+			"offsets": [
+				-2,
+				2
+			],
 			"anim": "singRIGHT-loop",
+			"fps": 24,
+			"name": "Dad Sing Note RIGHT",
 			"indices": [
 				15,
 				16,
 				17,
 				18
-			],
-			"name": "Dad Sing Note RIGHT"
+			]
 		},
 		{
-			"offsets": [
-				-6,
-				50
-			],
 			"loop": true,
-			"fps": 24,
+			"offsets": [
+				-3,
+				0
+			],
 			"anim": "singUP-loop",
+			"fps": 24,
+			"name": "Dad Sing Note UP",
 			"indices": [
 				56,
 				57,
 				58,
 				59
-			],
-			"name": "Dad Sing Note UP"
+			]
 		},
 		{
-			"loop": false,
 			"offsets": [
-				-9,
-				10
+				185,
+				47
 			],
+			"loop": false,
+			"fps": 24,
 			"anim": "singLEFT",
-			"fps": 24,
-			"name": "Trance left",
-			"indices": []
+			"indices": [],
+			"name": "Trance left"
 		},
 		{
-			"loop": false,
 			"offsets": [
-				0,
-				-30
+				-82,
+				-75
 			],
+			"loop": false,
+			"fps": 24,
 			"anim": "singDOWN",
-			"fps": 24,
-			"name": "Trance down",
-			"indices": []
+			"indices": [],
+			"name": "Trance down"
 		},
 		{
-			"loop": false,
 			"offsets": [
-				-6,
-				50
+				20,
+				161
 			],
+			"loop": false,
+			"fps": 24,
 			"anim": "singUP",
-			"fps": 24,
-			"name": "Trance up",
-			"indices": []
+			"indices": [],
+			"name": "Trance up"
 		},
 		{
-			"loop": false,
 			"offsets": [
-				0,
-				27
+				-76,
+				-4
 			],
+			"loop": false,
+			"fps": 24,
 			"anim": "singRIGHT",
-			"fps": 24,
-			"name": "Trance right",
-			"indices": []
+			"indices": [],
+			"name": "Trance right"
 		},
 		{
-			"loop": false,
 			"offsets": [
 				0,
-				0
+				1
 			],
-			"anim": "idle",
+			"loop": false,
 			"fps": 24,
-			"name": "Trance idle",
-			"indices": []
+			"anim": "idle",
+			"indices": [],
+			"name": "Trance idle"
 		}
 	],
 	"no_antialiasing": false,
@@ -129,13 +129,13 @@
 	"healthicon": "dad",
 	"flip_x": false,
 	"healthbar_colors": [
-		175,
+		165,
 		102,
-		206
+		255
 	],
 	"camera_position": [
-		-130,
-		0
+		-157,
+		-140
 	],
 	"sing_duration": 6.1,
 	"scale": 1.1
