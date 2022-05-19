@@ -1,0 +1,11 @@
+{
+	"idle_anim": "Trance Menu0",
+	"image": "Menu_Trance",
+	"position": [
+		41,
+		280
+	],
+	"flipX": false,
+	"scale": 0.4,
+	"confirm_anim": "M Dad Idle"
+}
