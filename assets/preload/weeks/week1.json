@@ -3,18 +3,22 @@
 	"difficulties": "",
 	"hideFreeplay": false,
 	"weekBackground": "",
-	"weekBefore": "tutorial",
 	"freeplayColor": [
 		146,
 		113,
 		253
 	],
+	"weekBefore": "tutorial",
 	"startUnlocked": true,
-	"hideStoryMode": false,
+	"weekCharacters": [
+		"trance",
+		"bf",
+		"gf"
+	],
 	"songs": [
 		[
 			"mr.trance",
-			"dad",
+			"trance",
 			[
 				126,
 				33,
@@ -23,28 +27,24 @@
 		],
 		[
 			"mood trance",
-			"dad",
+			"trance",
 			[
-				0,
-				155,
-				235
+				126,
+				33,
+				253
 			]
 		],
 		[
 			"live in trance",
-			"dad",
+			"trance",
 			[
-				6,
-				153,
-				0
+				126,
+				33,
+				253
 			]
 		]
 	],
-	"weekCharacters": [
-		"trance",
-		"bf",
-		"gf"
-	],
-	"hiddenUntilUnlocked": false,
-	"weekName": "trance"
+	"hideStoryMode": false,
+	"weekName": "trance",
+	"hiddenUntilUnlocked": false
 }
