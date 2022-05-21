@@ -14,10 +14,10 @@ function goodNoteHit(id, noteData, noteType, isSustainNote)
 	
 	if noteType == 'Bullet Note' then
 
-                noteTweenX("NoteMove1", 4, 1075, 0.5, bounceIn)
-                noteTweenX("NoteMove2", 6, 845, 0.5, bounceIn)
-                noteTweenX("NoteMove3", 5, 960, 0.5, bounceIn)
-                noteTweenX("NoteMove4", 7, 725, 0.5, bounceIn)
+                noteTweenX("NoteMove1", 4, 1075, 0.5, QuartOut)
+                noteTweenX("NoteMove2", 6, 845, 0.5, QuartOut)
+                noteTweenX("NoteMove3", 5, 960, 0.5, QuartOut)
+                noteTweenX("NoteMove4", 7, 725, 0.5, QuartOut)
              
 				runTimer("Switchback", 3, 1)
 
@@ -28,10 +28,10 @@ function goodNoteHit(id, noteData, noteType, isSustainNote)
 function onTimerCompleted(tag, loops, loopsLeft)
 	if tag == 'Switchback' then
 
-		noteTweenX("NoteMove1", 4, 725, 0.5, bounceIn)
-		noteTweenX("NoteMove2", 6, 960, 0.5, bounceIn)
-		noteTweenX("NoteMove3", 5, 845, 0.5, bounceIn)
-		noteTweenX("NoteMove4", 7, 1075, 0.5, bounceIn)
+		noteTweenX("NoteMove1", 4, 725, 0.5, QuartOut)
+		noteTweenX("NoteMove2", 6, 960, 0.5, QuartOut)
+		noteTweenX("NoteMove3", 5, 845, 0.5, QuartOut)
+		noteTweenX("NoteMove4", 7, 1075, 0.5, QuartOut)
 
 	end
   end
