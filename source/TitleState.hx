@@ -577,7 +577,7 @@ class TitleState extends MusicBeatState
 					#if PSYCH_WATERMARKS
 					createCoolText(['Psych Engine by'], 15);
 					#else
-					createCoolText(['Fell', 'MDC', 'Double_Dust', 'Fran', 'Thomas','ElCalvoNuclear']);
+					createCoolText(['Fell', 'MDC', 'Double_Dust', 'Fran', 'Jackson','ElCalvoNuclear']); // Me ponen thomas de vuelta y les rompo la cabeza a patadas
 					#end
 				// credTextShit.visible = true;
 				case 3:
