@@ -6,7 +6,7 @@
       "type": "hxcpp",
       "preLaunchTask": "Build Windows (Debug)",
       "request": "launch",
-      "program": "${workspaceFolder}/export/debug/windows/bin/Kade Engine.exe"
+      "program": "${workspaceFolder}/export/debug/windows/bin/Mr. Trance.exe"
     },
     {
       "name": "Windows (Release)",
